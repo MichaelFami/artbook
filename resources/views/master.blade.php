@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/main.css">
 
         <title>@yield('title')</title>
 
@@ -16,7 +17,7 @@
 
     </head>
     <body>
-      <nav class="nav navbar navbar-expand-sm navbar-light py-4">
+      <nav class="nav navbar navbar-expand-sm navbar-light">
         <div class="container">
           <a href="#" class="navbar-brand">
             <h3>Artbook</h3>
@@ -50,10 +51,8 @@
           </div>
         </div>
       </nav>
-      
-      <div class="container">
+
         @yield('content')
-      </div>
 
 
       <!-- Optional JavaScript -->
