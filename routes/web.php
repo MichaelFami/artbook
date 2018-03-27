@@ -23,6 +23,12 @@ Route::get('landing', function () {
     return view('landing');
 });
 
+Route::get('artist', function () {
+    return view('artist');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::post('upload_art', 'ArtController@upload_art');
