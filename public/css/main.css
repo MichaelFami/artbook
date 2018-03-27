@@ -1,23 +1,41 @@
-#home-section {
-  background: url("/img/home.jpg") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  min-height: 700px;
+.jumbotron-fluid {
+  background: url("/img/home.jpg");
 }
 
 .dark-overlay {
-  background-color: rgba(0,0,0,0.3);
-  position: relative;
+  background-color: rgba(0,0,0,0.6);
   top: 0;
   left: 0;
   width: 100%
-  min-height: 700px;
-}
-
-.home-inner {
-  padding-top: 125px;
 }
 
 .card-form{
   background-color: #7C398B;
+}
+
+.discover_title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+}
+
+.discover_text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+
+#discover .card {
+  border: 0;
+}
+
+#recent_list h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+#testimonial {
+  background-color: #EEE;
+}
+#testimonial h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
 }
