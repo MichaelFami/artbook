@@ -20,7 +20,6 @@
                 <input name="artName" type="text" class="form-control" id="inputName" placeholder="My First Piece">
               </div>
               <div class="input-group mb-2">
-                <input type="text" class="form-control">
                 <div class="input-group-prepend">
                   <span class="input-group-text" id="basic-addon1">Type of Art:</span>
                 </div>
