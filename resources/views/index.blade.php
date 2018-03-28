@@ -70,55 +70,46 @@
     </div>
     <hr>
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
-        <div class="card mt-2">
-          <div class="card-body">
-            <p class="text-center"><i class="fas fa-search fa-4x"></i></p>
-            <h2 class="card-title text-center discover_text">Discover Local Artists</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt accusantium natus tempore fugiat deserunt voluptate, veniam dignissimos ab odit et consequatur, provident reiciendis doloremque ducimus.</p>
-          </div>
-        </div>
+      <div class="col-md-4 text-center">
+        <p class="text-center"><i class="fas fa-search fa-4x"></i></p>
+        <h2>Discover Local Artists</h2>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt accusantium natus tempore fugiat deserunt voluptate, veniam dignissimos ab odit et consequatur, provident reiciendis doloremque ducimus.</p>
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <div class="card">
-          <div class="card-body">
-            <p class="text-center"><i class="far fa-heart fa-4x"></i></p>
-            <h2 class="card-title text-center discover_text">Love Their Work</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus voluptatem at deleniti odit adipisci sit tempore quasi provident, eos reiciendis nisi, esse molestiae a voluptatibus.</p>
-          </div>
-        </div>
+      <div class="col-md-4 text-center">
+        <p><i class="far fa-heart fa-4x"></i></p>
+        <h2>Love Their Work</h2>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus voluptatem at deleniti odit adipisci sit tempore quasi provident, eos reiciendis nisi, esse molestiae a voluptatibus.</p>
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
-        <div class="card">
-          <div class="card-body">
-            <p class="text-center"><i class="fas fa-dollar-sign fa-4x"></i></p>
-            <h2 class="card-title text-center discover_text">Buy Their Work</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, blanditiis? Consequuntur sequi cumque fugit aliquam minus, numquam maiores, placeat adipisci nesciunt eligendi distinctio, atque, consequatur.</p>
-          </div>
-        </div>
+      <div class="col-md-4 text-center">
+        <p><i class="fas fa-dollar-sign fa-4x"></i></p>
+        <h2>Buy Their Work</h2>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, blanditiis? Consequuntur sequi cumque fugit aliquam minus, numquam maiores, placeat adipisci nesciunt eligendi distinctio, atque, consequatur.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- RECENT WORK -->
+<!-- RECENT ARTWORK -->
 <section>
-  <div id="recent_list" class="container-fluid mt-5">
-    <div class="row">
-      <div class="col">
-        <h3>FEATURED ARTWORK</h3>
-      </div>
-      <div class="row mx-2">
+  <div id="recent_list" class="py-5">
+    <div class="container-fluid">
+      <div class="row">
         <div class="col">
-          <div class="owl-carousel">
-            <div><img src="http://via.placeholder.com/200X200" alt=""></div>
-            <div><img src="http://via.placeholder.com/200X200" alt=""></div>
-            <div><img src="http://via.placeholder.com/200X200" alt=""></div>
-            <div><img src="http://via.placeholder.com/200X200" alt=""></div>
-            <div><img src="http://via.placeholder.com/200X200" alt=""></div>
-            <div><img src="http://via.placeholder.com/200X200" alt=""></div>
-            <div><img src="http://via.placeholder.com/200X200" alt=""></div>
-            <div><img src="http://via.placeholder.com/200X200" alt=""></div>
+          <h3>FEATURED ARTWORK</h3>
+          <hr>
+        </div>
+        <div class="row mx-2">
+          <div class="col">
+            <div class="owl-carousel">
+              <div><img src="http://via.placeholder.com/200X200" alt=""></div>
+              <div><img src="http://via.placeholder.com/200X200" alt=""></div>
+              <div><img src="http://via.placeholder.com/200X200" alt=""></div>
+              <div><img src="http://via.placeholder.com/200X200" alt=""></div>
+              <div><img src="http://via.placeholder.com/200X200" alt=""></div>
+              <div><img src="http://via.placeholder.com/200X200" alt=""></div>
+              <div><img src="http://via.placeholder.com/200X200" alt=""></div>
+              <div><img src="http://via.placeholder.com/200X200" alt=""></div>
+            </div>
           </div>
         </div>
       </div>
@@ -130,11 +121,11 @@
 <!-- TESTIMONIALS -->
 <section id="testimonial">
   <div class="conatiner-fluid">
-    <h3 class="title text-center pt-5">A WORD FROM OUR ARTISTS</h3>
+    <h3 class="title text-center py-4">A WORD FROM OUR ARTISTS</h3>
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <div class="container">
+          <div class="container mb-5">
             <div class="row">
               <div class="col-lg-6 mt-2">
                 <p class=""><i class="fas fa-quote-right fa-2x"></i></p>
@@ -152,10 +143,40 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="..." alt="Second slide">
+          <div class="container mb-5">
+            <div class="row">
+              <div class="col-lg-6 mt-2">
+                <p class=""><i class="fas fa-quote-right fa-2x"></i></p>
+                <div class="d-flex flex-row">
+                  <div class="align-self-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                </div>
+              </div>
+              <div class="col-lg-6 mt-2">
+                <p class=""><i class="fas fa-quote-right fa-2x"></i></p>
+                <div class="d-flex flex-row">
+                  <div class="align-self-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="..." alt="Third slide">
+          <div class="container mb-5">
+            <div class="row">
+              <div class="col-lg-6 mt-2">
+                <p class=""><i class="fas fa-quote-right fa-2x"></i></p>
+                <div class="d-flex flex-row">
+                  <div class="align-self-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                </div>
+              </div>
+              <div class="col-lg-6 mt-2">
+                <p class=""><i class="fas fa-quote-right fa-2x"></i></p>
+                <div class="d-flex flex-row">
+                  <div class="align-self-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -170,11 +191,35 @@
   </div>
 </section>
 
+<!-- FEATURED ARTISTS -->
+<section id="artist" class="py-5">
+  <div class="container-fluid">
+    <h3>FEATURED ARTISTS</h3>
+    <hr>
+    <div class="row mx-2 text-center">
+      <div class="col-md-3">
+        <img src="http://via.placeholder.com/200X200" alt="" class="img-fluid rounded-circle mb-2">
+        <h4>Iliana Rodriguez</h4>
+      </div>
+      <div class="col-md-3">
+        <img src="http://via.placeholder.com/200X200" alt="" class="img-fluid rounded-circle mb-2">
+        <h4>Luis Corpus</h4>
+      </div>
+      <div class="col-md-3">
+        <img src="http://via.placeholder.com/200X200" alt="" class="img-fluid rounded-circle mb-2">
+        <h4>Clarita Fajutag</h4>
+      </div>
+      <div class="col-md-3">
+        <img src="http://via.placeholder.com/200X200" alt="" class="img-fluid rounded-circle mb-2">
+        <h4>Belinda Diego</h4>
+      </div>
+    </div>
+  </div>
+</section>
 
 
-@endsection
 
-@section('bottom_js')
+@endsection @section('bottom_js')
 <script>
   $(document).ready(function() {
     $('.owl-carousel').owlCarousel({

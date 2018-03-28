@@ -2,13 +2,6 @@
   background: url("/img/home.jpg");
 }
 
-.dark-overlay {
-  background-color: rgba(0,0,0,0.6);
-  top: 0;
-  left: 0;
-  width: 100%
-}
-
 .card-form{
   background-color: #7C398B;
 }
@@ -18,7 +11,7 @@
   font-size: 40px;
 }
 
-.discover_text {
+#discover h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
 }
@@ -38,4 +31,14 @@
 #testimonial h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
+}
+
+#artist h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+#artist h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
 }
