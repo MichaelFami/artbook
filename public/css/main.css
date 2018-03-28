@@ -59,3 +59,13 @@
 .fa-home, .fa-graduation-cap, .fa-envelope, .fa-paint-brush {
   font-size: 2em;
 }
+
+.featured-carousel {
+    /* width: 100%;
+    margin: 0 auto; */
+}
+
+.featured-carousel img {
+  /* width: 200px;
+  height: 200px; */
+}

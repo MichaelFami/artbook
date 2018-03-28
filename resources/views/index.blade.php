@@ -98,23 +98,50 @@
           <h3>FEATURED ARTWORK</h3>
           <hr>
         </div>
-        <div class="row mx-2">
-          <div class="col">
-            <div class="owl-carousel">
-              <div><img src="http://via.placeholder.com/200X200" alt=""></div>
-              <div><img src="http://via.placeholder.com/200X200" alt=""></div>
-              <div><img src="http://via.placeholder.com/200X200" alt=""></div>
-              <div><img src="http://via.placeholder.com/200X200" alt=""></div>
-              <div><img src="http://via.placeholder.com/200X200" alt=""></div>
-              <div><img src="http://via.placeholder.com/200X200" alt=""></div>
-              <div><img src="http://via.placeholder.com/200X200" alt=""></div>
-              <div><img src="http://via.placeholder.com/200X200" alt=""></div>
+      </div>
+      <div class="row mx-2">
+        <div class="col">
+          <div class="featured-carousel">
+            <div>
+              <img src="http://via.placeholder.com/200X200" alt="">
+            </div>
+            <div>
+              <img src="http://via.placeholder.com/200X200" alt="">
+            </div>
+            <div>
+              <img src="http://via.placeholder.com/200X200" alt="">
+            </div>
+            <div>
+              <img src="http://via.placeholder.com/200X200" alt="">
+            </div>
+            <div>
+              <img src="http://via.placeholder.com/200X200" alt="">
+            </div>
+            <div>
+              <img src="http://via.placeholder.com/200X200" alt="">
+            </div>
+            <div>
+              <img src="http://via.placeholder.com/200X200" alt="">
+            </div>
+            <div>
+              <img src="http://via.placeholder.com/200X200" alt="">
+            </div>
+            <div>
+              <img src="http://via.placeholder.com/200X200" alt="">
+            </div>
+            <div>
+              <img src="http://via.placeholder.com/200X200" alt="">
+            </div>
+            <div>
+              <img src="http://via.placeholder.com/200X200" alt="">
+            </div>
+            <div>
+              <img src="http://via.placeholder.com/200X200" alt="">
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
   </div>
 </section>
 
@@ -222,26 +249,33 @@
 @endsection @section('bottom_js')
 <script>
   $(document).ready(function() {
-    $('.owl-carousel').owlCarousel({
-      loop: true,
-      margin: 10,
-      responsiveClass: true,
-      responsive: {
-        0: {
-          items: 1,
-          nav: true
+    $('.featured-carousel').slick({
+      slidesToShow: 6,
+      slidesToScroll: 3,
+      dots: true,
+      infinite: true,
+      responsive: [{
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1
+          }
         },
-        600: {
-          items: 3,
-          nav: false
+        {
+          breakpoint: 1008,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1
+          }
         },
-        1000: {
-          items: 5,
-          nav: true,
-          loop: false
+        {
+          breakpoint: 800,
+          settings: "unslick"
         }
-      }
+
+      ]
     });
   });
 </script>
+
 @endsection
