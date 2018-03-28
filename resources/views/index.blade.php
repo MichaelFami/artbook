@@ -35,20 +35,41 @@
                 <div class="card-body text-white">
                   <h3>Sign Up Today</h3>
                   <p>Please fill out this form to register</p>
-                  <form>
+                  <form method="POST" action="{{ route('register') }}">
+                    @csrf
                     <div class="form-group">
-                      <input type="text" class="form-control form-control-lg" placeholder="Username">
+                      <input id="name" type="text" class="form-control form-control-lg {{ $errors->has('name') ? ' is-invalid' : '' }}" placeholder="Name" value="{{ old('name') }}" required autofocus>
+
+                      @if ($errors->has('name'))
+                          <span class="invalid-feedback">
+                              <strong>{{ $errors->first('name') }}</strong>
+                          </span>
+                      @endif
                     </div>
                     <div class="form-group">
-                      <input type="email" class="form-control form-control-lg" placeholder="Email">
+                      <input id="email" type="email" class="form-control form-control-lg {{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" placeholder="Email" value="{{ old('email') }}" required>
+
+                      @if ($errors->has('email'))
+                          <span class="invalid-feedback">
+                              <strong>{{ $errors->first('email') }}</strong>
+                          </span>
+                      @endif
                     </div>
                     <div class="form-group">
-                      <input type="password" class="form-control form-control-lg" placeholder="Password">
+                      <input id="password" type="password" class="form-control form-control-lg {{ $errors->has('password') ? ' is-invalid' : '' }}" placeholder="Password" name="password" required>
+
+                      @if ($errors->has('password'))
+                          <span class="invalid-feedback">
+                              <strong>{{ $errors->first('password') }}</strong>
+                          </span>
+                      @endif
                     </div>
                     <div class="form-group">
-                      <input type="password" class="form-control form-control-lg" placeholder="Confirm Password">
+                      <input id="password-confirm" type="password" class="form-control form-control-lg" placeholder="Confrim Password" name="password_confirmation" required>
                     </div>
-                    <input type="submit" class="btn btn-outline-light btn-block">
+                    <button type="submit" class="btn btn-outline-light btn-block">
+                        {{ __('Register') }}
+                    </button>
                   </form>
                 </div>
               </div>

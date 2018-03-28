@@ -3,9 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Auth;
 
 class HomeController extends Controller
 {
+
     /**
      * Create a new controller instance.
      *
@@ -13,16 +15,30 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
     }
 
     /**
-     * Show the application dashboard.
+     * Create a new controller instance.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
+
+     public function index()
+     {
+
+        $this->middleware('auth');
         return view('home');
+    }
+
+    public function homepage()
+    {
+      return view('index');
+    }
+
+    public function logout ()
+    {
+      $this->middleware('auth');
+      Auth::logout();
+      return redirect('/');
     }
 }

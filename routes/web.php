@@ -11,16 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', 'HomeController@homepage');
 
 Route::get('index', function () {
     return view('index');
 });
 
-Route::get('landing', function () {
-    return view('landing');
+Route::get('home', function () {
+    return view('home');
 });
 
 Route::get('artist', function () {
@@ -29,8 +27,8 @@ Route::get('artist', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-
 Route::post('upload_art', 'ArtController@upload_art');
 
 Route::get('/directory', 'ArtController@fillDirectory');
+
+Route::get('logout', 'HomeController@logout');

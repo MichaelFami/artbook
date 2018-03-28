@@ -40,16 +40,16 @@
           @endguest
           @auth
           <li class="nav-item">
-            <a href="#" class="nav-link">Home</a>
+            <a href="/home" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">Artists</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Profile</a>
+            <a href="artist" class="nav-link">Profile</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Sign Out</a>
+            <a href="{{ url('/logout') }}" class="nav-link">Sign Out</a>
           </li>
           @endauth
         </ul>
