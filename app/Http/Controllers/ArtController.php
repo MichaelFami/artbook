@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Storage;
 use App\Artwork;
 use App\User;
 use Auth;
+use Tags;
 use Log;
 
 class ArtController extends Controller
@@ -39,10 +40,17 @@ class ArtController extends Controller
 
     public function fillDirectory(){
         $user = User::find(Auth::id());
-        $artwork = Artwork::where('user_id', '=', Auth::id())->get();
+
+
+
+
+
+        $artwork = Artwork::where('user_id', '=', Auth::id())
+        ->get();
         $data = [
             'artwork' => $artwork
         ];
         return view('directory')->with($data);
     }
+
 }
