@@ -111,14 +111,14 @@
     </div>
     </div>
     <div class="card">
-      <img class="card-img-top" src="https://via.placeholder.com/260X200" alt="Card image cap">
+      <img class="card-img-top" src="https://via.placeholder.com/260X290" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Card title that wraps to a new line</h5>
       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     </div>
     </div>
     <div class="card">
-      <img class="card-img-top" src="https://via.placeholder.com/242X260" alt="Card image cap">
+      <img class="card-img-top" src="https://via.placeholder.com/275X260" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Card title that wraps to a new line</h5>
       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
