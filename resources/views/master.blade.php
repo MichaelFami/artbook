@@ -47,7 +47,7 @@
             <a href="directory" class="nav-link">Artists</a>
           </li>
           <li class="nav-item">
-            <a href="artist" class="nav-link">Profile</a>
+            <a href="artist" class="nav-link"><i class="fas fa-user"></i> Profile</a>
           </li>
           <li class="nav-item">
             <a href="{{ url('/logout') }}" class="nav-link">Sign Out</a>

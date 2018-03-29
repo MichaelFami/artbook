@@ -1,7 +1,7 @@
 @extends('master') @section('title') X-Hibit @endsection @section('content')
 
 <!-- SECONDARY NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
   <div class="container-fluid mx-3">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -92,50 +92,57 @@
     <div class="card">
       <img class="card-img-top" src="https://via.placeholder.com/242X260" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title that wraps to a new line</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 class="card-title"><strong>ART TITLE</strong></h5>
+      <p class="card-text">by: (Artist Name)</p>
+      <p class="card-text">Type Tag goes here</p>
     </div>
     </div>
     <div class="card">
       <img class="card-img-top" src="https://via.placeholder.com/230X290" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title that wraps to a new line</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 class="card-title"><strong>ART TITLE</strong></h5>
+      <p class="card-text">by: (Artist Name)</p>
+      <p class="card-text">Type Tag goes here</p>
     </div>
     </div>
     <div class="card">
       <img class="card-img-top" src="https://via.placeholder.com/242X260" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title that wraps to a new line</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 class="card-title"><strong>ART TITLE</strong></h5>
+      <p class="card-text">by: (Artist Name)</p>
+      <p class="card-text">Type Tag goes here</p>
     </div>
     </div>
     <div class="card">
       <img class="card-img-top" src="https://via.placeholder.com/260X290" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title that wraps to a new line</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 class="card-title"><strong>ART TITLE</strong></h5>
+      <p class="card-text">by: (Artist Name)</p>
+      <p class="card-text">Type Tag goes here</p>
     </div>
     </div>
     <div class="card">
       <img class="card-img-top" src="https://via.placeholder.com/275X260" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title that wraps to a new line</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 class="card-title"><strong>ART TITLE</strong></h5>
+      <p class="card-text">by: (Artist Name)</p>
+      <p class="card-text">Type Tag goes here</p>
     </div>
     </div>
     <div class="card">
       <img class="card-img-top" src="https://via.placeholder.com/242X260" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title that wraps to a new line</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 class="card-title"><strong>ART TITLE</strong></h5>
+      <p class="card-text">by: (Artist Name)</p>
+      <p class="card-text">Type Tag goes here</p>
     </div>
     </div>
     <div class="card">
       <img class="card-img-top" src="https://via.placeholder.com/242X260" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title that wraps to a new line</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 class="card-title"><strong>ART TITLE</strong></h5>
+      <p class="card-text">by: (Artist Name)</p>
+      <p class="card-text">Type Tag goes here</p>
     </div>
     </div>
   </div>

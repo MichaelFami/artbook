@@ -9995,7 +9995,7 @@ a.text-dark:focus {
 }
 
 .jumbotron-fluid {
-  background-image: "/img/home.jpg";
+  background: url("/img/home.jpg");
 }
 
 .card-form {
@@ -10047,13 +10047,6 @@ a.text-dark:focus {
 
 .port-item {
   width: 30%;
-}
-
-.fa-home,
-.fa-graduation-cap,
-.fa-envelope,
-.fa-paint-brush {
-  font-size: 2em;
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
