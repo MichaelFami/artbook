@@ -72,3 +72,9 @@ $secondaryFontSize: 30px;
     column-count: 4;
   }
 }
+
+.sidebar {
+  .list-group-item {
+    border: None;
+  }
+}

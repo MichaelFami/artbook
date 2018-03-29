@@ -1,20 +1,59 @@
 @extends('master') @section('title') Artists @endsection @section('content')
 
-<div class="container mt-5">
-  <header class="main-header">
-    <div class="row no-gutter">
-      <div class="col-lg-4 col-md-5">
-        <div class="card mb-5">
-          <img class="card-img-top rounded-circle" src="/img/person1.jpg" width="100%" height="100%" alt="">
-          <a href="" class="text-center mt-2">Edit Photo <i class="fas fa-pencil-alt"></i></a>
-          <h1 class="text-center">John Doe</h1>
-          <div class="social_media d-flex flex-row justify-content-center">
-            <div><i class="fab fa-twitter fa-lg mx-3"></i></div>
-            <div><i class="fab fa-facebook fa-lg mx-3"></i></div>
-            <div><i class="fab fa-instagram fa-lg mx-3"></i></div>
-            <div><i class="fab fa-linkedin-in fa-lg mx-3"></i></div>
+
+<!-- SIDEBAR -->
+
+<div class="container-fluid mt-3">
+  <div class="row">
+    <div class="col-md-3 col-lg-2 order-2 order-md-1 col-10.mx-auto d.flex flex-column sidebar p-0">
+      <div class="profile mt-0">
+        <ul class="list-group list-group-flush">
+          <div class="list-group-item profile-logo py-2">
+            <img class="img-fluid my-3 rounded-circle" src="/img/person1.jpg" alt="profile_pic">
+            <a href="" class="d-flex flex-row justify-content-center mt-2">Edit Photo <i class="fas fa-pencil-alt ml-2"></i></a>
+            <h1 class="d-flex flex-row justify-content-center">John Doe</h1>
           </div>
-          <div class="card-body">
+          <a href="" class="list-group-item list-group-item-action text-center"><strong>BIOGRAPHY</strong></a>
+          <a href="" class="list-group-item list-group-item-action text-center"><strong>UPLOAD ART</strong></a>
+          <a href="" class="list-group-item list-group-item-action text-center"><strong>CONTACT ME</strong></a>
+          <a href="" class="list-group-item list-group-item-action text-center"><strong>DIRECTORY</strong></a>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /#wrapper -->
+<!-- <header class="main-header">
+    <div class="row">
+      <div class="col-sm-3 col-md-3 sidebar">
+        <img class="card-img-top rounded-circle" src="/img/person1.jpg" width="200px" height="300px" alt="">
+        <a href="" class="d-flex flex-row justify-content-center mt-2">Edit Photo <i class="fas fa-pencil-alt"></i></a>
+        <h1 class="d-flex flex-row justify-content-center">John Doe</h1>
+        <div class="social_media d-flex flex-row justify-content-center">
+          <div><i class="fab fa-twitter fa-lg mx-3"></i></div>
+          <div><i class="fab fa-facebook fa-lg mx-3"></i></div>
+          <div><i class="fab fa-instagram fa-lg mx-3"></i></div>
+          <div><i class="fab fa-linkedin-in fa-lg mx-3"></i></div>
+        </div>
+        <div id="sidebar-wrapper">
+          <nav id "sidebar">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Biography</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Upload Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Directory</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Me</a>
+              </li>
+            </ul>
+          </nav>
+        </div> -->
+<!-- <div class="card-body">
             <form action="upload_art" method="post" enctype="multipart/form-data">
               @csrf
               <div class="input-group mb-2">
@@ -50,11 +89,10 @@
               </div>
               <button type="submit" name="button">Submit</button>
             </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+          </div> -->
+</div>
+</div>
+</header>
 </div>
 
 <!-- <div class="row justify-content-center">

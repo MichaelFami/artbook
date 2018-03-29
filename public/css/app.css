@@ -10063,3 +10063,7 @@ a.text-dark:focus {
   }
 }
 
+.sidebar .list-group-item {
+  border: None;
+}
+
