@@ -5,7 +5,15 @@
     <div class="row no-gutter">
       <div class="col-lg-4 col-md-5">
         <div class="card mb-5">
-          <img class="card-img-top" src="/img/person1.jpg" width="100%" height="100%" alt="">
+          <img class="card-img-top rounded-circle" src="/img/person1.jpg" width="100%" height="100%" alt="">
+          <a href="" class="text-center mt-2">Edit Photo <i class="fas fa-pencil-alt"></i></a>
+          <h1 class="text-center">John Doe</h1>
+          <div class="social_media d-flex flex-row justify-content-center">
+            <div><i class="fab fa-twitter fa-lg mx-3"></i></div>
+            <div><i class="fab fa-facebook fa-lg mx-3"></i></div>
+            <div><i class="fab fa-instagram fa-lg mx-3"></i></div>
+            <div><i class="fab fa-linkedin-in fa-lg mx-3"></i></div>
+          </div>
           <div class="card-body">
             <form action="upload_art" method="post" enctype="multipart/form-data">
               @csrf
@@ -42,38 +50,6 @@
               </div>
               <button type="submit" name="button">Submit</button>
             </form>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-8 col-md-7">
-        <div class="d-flex flex-column">
-          <div class="p5 ">
-            <div class="name d-flex flex-row justify-content-between align-items-center">
-              <h1 class="display-4">John Doe</h1>
-              <div><i class="fab fa-twitter fa-2x"></i></div>
-              <div><i class="fab fa-facebook fa-2x"></i></div>
-              <div><i class="fab fa-instagram fa-2x"></i></div>
-              <div><i class="fab fa-linkedin-in fa-2x"></i></div>
-            </div>
-          </div>
-          <div class="p-2 bg-black">
-            Teacher / Artist
-          </div>
-          <div>
-            <div class="d-flex flex-row text-white align-items-stretch text-center">
-              <div class="port-item p-4 bg-primary">
-                <i class="fas fa-home d-block"></i> Home
-              </div>
-              <div class="port-item p-4 bg-success">
-                <i class="fas fa-graduation-cap d-block"></i> Resume
-              </div>
-              <div class="port-item p-4 bg-warning">
-                <i class="fas fa-paint-brush d-block"></i> Works
-              </div>
-              <div class="port-item p-4 bg-danger">
-                <i class="fas fa-envelope d-block"></i> Contact
-              </div>
-            </div>
           </div>
         </div>
       </div>

@@ -1,5 +1,7 @@
 
 $primaryFont: Montserrat, sans-serif;
+$primaryFontSize: 40px;
+$secondaryFontSize: 30px;
 
 // Variables
 @import "variables";
@@ -8,7 +10,7 @@ $primaryFont: Montserrat, sans-serif;
 @import '~bootstrap/scss/bootstrap';
 
 .jumbotron-fluid {
-    background-image:("/img/home.jpg");
+    background: url("/img/home.jpg");
 }
 
 .card-form{
@@ -17,7 +19,7 @@ $primaryFont: Montserrat, sans-serif;
 
 .discover_title {
   font-family: $primaryFont;
-  font-size: 40px;
+  font-size: $primaryFontSize
 }
 
 #discover h2 {
@@ -40,7 +42,7 @@ $primaryFont: Montserrat, sans-serif;
 
 #testimonial h3 {
   font-family: $primaryFont;
-  font-size: 30px;
+  font-size: $secondaryFontSize;
 }
 
 #artist h3 {
@@ -60,10 +62,6 @@ $primaryFont: Montserrat, sans-serif;
 
 .port-item {
   width: 30%;
-}
-
-.fa-home, .fa-graduation-cap, .fa-envelope, .fa-paint-brush {
-  font-size: 2em;
 }
 
 .card-columns {
