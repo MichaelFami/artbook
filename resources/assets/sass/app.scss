@@ -1,6 +1,5 @@
 
-// Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+$primaryFont: Montserrat, sans-serif;
 
 // Variables
 @import "variables";
@@ -8,7 +7,70 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+.jumbotron-fluid {
+    background-image:("/img/home.jpg");
+}
+
+.card-form{
+  background-color: #7C398B;
+}
+
+.discover_title {
+  font-family: $primaryFont;
+  font-size: 40px;
+}
+
+#discover h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+
+#discover .card {
+  border: 0;
+}
+
+#recent_list h3 {
+  font-family: $primaryFont;
+  font-size: 20px;
+}
+
+#testimonial {
+  background-color: #EEE;
+}
+
+#testimonial h3 {
+  font-family: $primaryFont;
+  font-size: 30px;
+}
+
+#artist h3 {
+  font-family: $primaryFont;
+  font-size: 20px;
+}
+
+#artist h4 {
+  font-family: $primaryFont;
+  font-size: 25px;
+}
+
+.bg-black {
+  background: #000;
+  color: #fff;
+}
+
+.port-item {
+  width: 30%;
+}
+
+.fa-home, .fa-graduation-cap, .fa-envelope, .fa-paint-brush {
+  font-size: 2em;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 3;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 4;
+  }
 }
