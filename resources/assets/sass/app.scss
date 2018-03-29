@@ -1,6 +1,5 @@
 
-// Fonts
-
+$primaryFont: Montserrat, sans-serif;
 
 // Variables
 @import "variables";
@@ -17,7 +16,7 @@
 }
 
 .discover_title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $primaryFont;
   font-size: 40px;
 }
 
@@ -31,7 +30,7 @@
 }
 
 #recent_list h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: $primaryFont;
   font-size: 20px;
 }
 
@@ -40,17 +39,17 @@
 }
 
 #testimonial h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $primaryFont;
   font-size: 30px;
 }
 
 #artist h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $primaryFont;
   font-size: 20px;
 }
 
 #artist h4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $primaryFont;
   font-size: 25px;
 }
 
