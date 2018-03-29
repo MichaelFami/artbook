@@ -25,9 +25,22 @@
               Medium
             </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="#">Oil</a>
+            <a class="dropdown-item" href="#">Acrylic</a>
+            <a class="dropdown-item" href="#">Tempura</a>
+            <a class="dropdown-item" href="#">Ink</a>
+            <a class="dropdown-item" href="#">Ceramic/a>
+            <a class="dropdown-item" href="#">Wood</a>
+            <a class="dropdown-item" href="#">Wire</a>
+            <a class="dropdown-item" href="#">Plaster</a>
+            <a class="dropdown-item" href="#">Marble</a>
+            <a class="dropdown-item" href="#">Graphite</a>
+            <a class="dropdown-item" href="#">Pen</a>
+            <a class="dropdown-item" href="#">Charcoal</a>
+            <a class="dropdown-item" href="#">Paper</a>
+            <a class="dropdown-item" href="#">Colored Pencil</a>
+            <a class="dropdown-item" href="#">Oil Pastel</a>
+            <a class="dropdown-item" href="#">Soft Pastel</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -35,9 +48,23 @@
               Style
             </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="#">Abstract</a>
+            <a class="dropdown-item" href="#">Contemporary</a>
+            <a class="dropdown-item" href="#">Baroque</a>
+            <a class="dropdown-item" href="#">Renaissance</a>
+            <a class="dropdown-item" href="#">Pointillism</a>
+            <a class="dropdown-item" href="#">Expressionism</a>
+            <a class="dropdown-item" href="#">Impressionism</a>
+            <a class="dropdown-item" href="#">Cubism</a>
+            <a class="dropdown-item" href="#">Pop Art</a>
+            <a class="dropdown-item" href="#">Modernism</a>
+            <a class="dropdown-item" href="#">Gothic</a>
+            <a class="dropdown-item" href="#">Surrealism</a>
+            <a class="dropdown-item" href="#">Realism</a>
+            <a class="dropdown-item" href="#">Hyper Realism</a>
+            <a class="dropdown-item" href="#">Rococo</a>
+            <a class="dropdown-item" href="#">Byzantine</a>
+            <a class="dropdown-item" href="#">Romanticism</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -61,7 +88,7 @@
 
 <!-- GALLERY -->
 <div class="container-fluid mx-2 mt-5">
-  <div class="card-columns">
+  <div class="card-columns justify-content-center">
     <div class="card">
       <img class="card-img-top" src="https://via.placeholder.com/242X260" alt="Card image cap">
     <div class="card-body">
