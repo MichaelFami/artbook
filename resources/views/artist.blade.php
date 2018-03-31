@@ -1,6 +1,43 @@
 @extends('master') @section('title') Artists @endsection @section('content')
 
-<div class="container mt-5">
+<div id="sidebar">
+  <div class="profile m-3">
+      <img class="card-img-top rounded-circle" src="/img/person1.jpg" width="100%" height="100%" alt="">
+      <a href=""><h5 class="text-center mt-2">Edit Photo</h5></a>
+      <h1 class="text-center">John Doe</h1>
+  </div>
+  <ul class="list-unstyled text-center">
+    <li class="nav-item">
+      <a href="#biography" class="nav-link">BIOGRAPHY</a>
+    </li>
+    <li class="nav-item">
+      <a href="/upload" class="nav-link">UPLOAD ART</a>
+    </li>
+    <li class="nav-item">
+      <a href="" class="nav-link">DIRECTORY</a>
+    </li>
+    <li class="nav-item">
+      <a href="" class="nav-link">CONTACT ME</a>
+    </li>
+  </ul>
+</div>
+
+<!-- BIOGRAPHY -->
+<div id="biography" class="container main">
+  <div class="row mt-5">
+    <div class="col">
+      <h1>John Doe</h1>
+      <br>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae consequatur exercitationem, neque dolorum molestias asperiores magni nisi debitis consectetur hic, nam culpa. Accusamus exercitationem ut tempora corporis nesciunt repellendus impedit?</p>
+      <br>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate sint, nihil dolore soluta magnam porro consectetur nisi facilis! Culpa obcaecati ea sapiente quia ipsa distinctio hic harum, voluptas in sit.</p>
+      <br>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, amet. Explicabo sit assumenda modi totam dicta, voluptatum adipisci magnam aperiam sint molestiae eum vel libero possimus accusantium ratione cum, excepturi et quam eaque doloremque provident reiciendis est! Tempora id harum ad sunt, maiores suscipit. Asperiores sapiente quaerat ullam quisquam at.</p>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="container mt-5">
     <header class="main-header">
         <div class="row no-gutter">
             <div class="col-lg-4 col-md-5">
@@ -107,47 +144,9 @@
 </div>
 </div>
 </header>
-</div>
-
-<!-- <div class="row justify-content-center">
-    <div class="col-4">
-        <form action="upload_art" method="post" enctype="multipart/form-data">
-            @csrf
-            <div class="input-group">
-                <label for="exampleFormControlFile1">Upload New Work</label>
-                <input type="file" name="newArt" class="form-control-file" id="exampleFormControlFile1">
-            </div>
-            <div class="input-group">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1">Name of Piece:</span>
-                </div>
-                <input name="artName" type="text" class="form-control" id="inputName" placeholder="My First Piece">
-            </div>
-            <div class="input-group">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1">Type of Art:</span>
-                </div>
-                <select name="artType" class="form-control" id="selectType">
-                  <option>Painting</option>
-                  <option>Sculpture</option>
-                  <option>Drawing</option>
-                  <option>Default select</option>
-                </select>
-            </div>
-            <div class="input-group mb-3">
-              <div class="input-group-prepend">
-                <span class="input-group-text" id="basic-addon1">$</span>
-              </div>
-              <input name="artPrice" type="text" class="form-control" placeholder="Price" aria-label="Price" aria-describedby="basic-addon1">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Description</label>
-                <textarea name="artDescription" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <button type="submit" name="button">Submit</button>
-        </form>
-    </div>
 </div> -->
+
+
 
 
 
