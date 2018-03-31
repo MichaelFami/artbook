@@ -38,31 +38,22 @@
                   <form method="POST" action="{{ route('register') }}">
                     @csrf
                     <div class="form-group">
-                      <input id="name" type="text" class="form-control form-control-lg {{ $errors->has('name') ? ' is-invalid' : '' }}" placeholder="Name" value="{{ old('name') }}" required autofocus>
-
-                      @if ($errors->has('name'))
-                          <span class="invalid-feedback">
+                      <input id="name" type="text" class="form-control form-control-lg {{ $errors->has('name') ? ' is-invalid' : '' }}" placeholder="Name" value="{{ old('name') }}" required autofocus> @if ($errors->has('name'))
+                      <span class="invalid-feedback">
                               <strong>{{ $errors->first('name') }}</strong>
-                          </span>
-                      @endif
+                          </span> @endif
                     </div>
                     <div class="form-group">
-                      <input id="email" type="email" class="form-control form-control-lg {{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" placeholder="Email" value="{{ old('email') }}" required>
-
-                      @if ($errors->has('email'))
-                          <span class="invalid-feedback">
+                      <input id="email" type="email" class="form-control form-control-lg {{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" placeholder="Email" value="{{ old('email') }}" required> @if ($errors->has('email'))
+                      <span class="invalid-feedback">
                               <strong>{{ $errors->first('email') }}</strong>
-                          </span>
-                      @endif
+                          </span> @endif
                     </div>
                     <div class="form-group">
-                      <input id="password" type="password" class="form-control form-control-lg {{ $errors->has('password') ? ' is-invalid' : '' }}" placeholder="Password" name="password" required>
-
-                      @if ($errors->has('password'))
-                          <span class="invalid-feedback">
+                      <input id="password" type="password" class="form-control form-control-lg {{ $errors->has('password') ? ' is-invalid' : '' }}" placeholder="Password" name="password" required> @if ($errors->has('password'))
+                      <span class="invalid-feedback">
                               <strong>{{ $errors->first('password') }}</strong>
-                          </span>
-                      @endif
+                          </span> @endif
                     </div>
                     <div class="form-group">
                       <input id="password-confirm" type="password" class="form-control form-control-lg" placeholder="Confrim Password" name="password_confirmation" required>
@@ -120,44 +111,29 @@
           <hr>
         </div>
       </div>
-      <div class="row mx-2">
-        <div class="col">
-          <div class="featured-carousel">
-            <div>
-              <img src="http://via.placeholder.com/200X200" alt="">
+      <div class="row">
+        <div class="col-12 ">
+          <div id="featured-artist" class="owl-carousel owl-theme">
+            <div class="img-container">
+              <img class="img-fluid" src="https://picsum.photos/200/200/?random" alt="artwork">
             </div>
-            <div>
-              <img src="http://via.placeholder.com/200X200" alt="">
+            <div class="img-container">
+              <img class="img-fluid" src="https://picsum.photos/200/200/?random" alt="artwork">
             </div>
-            <div>
-              <img src="http://via.placeholder.com/200X200" alt="">
+            <div class="img-container">
+              <img class="img-fluid" src="https://picsum.photos/200/200/?random" alt="artwork">
             </div>
-            <div>
-              <img src="http://via.placeholder.com/200X200" alt="">
+            <div class="img-container">
+              <img class="img-fluid" src="https://picsum.photos/200/200/?random" alt="artwork">
             </div>
-            <div>
-              <img src="http://via.placeholder.com/200X200" alt="">
+            <div class="img-container">
+              <img class="img-fluid" src="https://picsum.photos/200/200/?random" alt="artwork">
             </div>
-            <div>
-              <img src="http://via.placeholder.com/200X200" alt="">
+            <div class="img-container">
+              <img class="img-fluid" src="https://picsum.photos/200/200/?random" alt="artwork">
             </div>
-            <div>
-              <img src="http://via.placeholder.com/200X200" alt="">
-            </div>
-            <div>
-              <img src="http://via.placeholder.com/200X200" alt="">
-            </div>
-            <div>
-              <img src="http://via.placeholder.com/200X200" alt="">
-            </div>
-            <div>
-              <img src="http://via.placeholder.com/200X200" alt="">
-            </div>
-            <div>
-              <img src="http://via.placeholder.com/200X200" alt="">
-            </div>
-            <div>
-              <img src="http://via.placeholder.com/200X200" alt="">
+            <div class="img-container">
+              <img class="img-fluid" src="https://picsum.photos/200/200/?random" alt="artwork">
             </div>
           </div>
         </div>
@@ -266,37 +242,5 @@
 </section>
 
 
-
-@endsection @section('bottom_js')
-<script>
-  $(document).ready(function() {
-    $('.featured-carousel').slick({
-      slidesToShow: 6,
-      slidesToScroll: 3,
-      dots: true,
-      infinite: true,
-      responsive: [{
-          breakpoint: 1200,
-          settings: {
-            slidesToShow: 4,
-            slidesToScroll: 1
-          }
-        },
-        {
-          breakpoint: 1008,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1
-          }
-        },
-        {
-          breakpoint: 800,
-          settings: "unslick"
-        }
-
-      ]
-    });
-  });
-</script>
 
 @endsection

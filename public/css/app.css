@@ -10063,7 +10063,23 @@ a.text-dark:focus {
   }
 }
 
-.sidebar .list-group-item {
-  border: None;
+#sidebar {
+  width: 300px;
+  position: absolute;
+}
+
+#sidebar ul li {
+  padding: 0px 5px;
+  border-bottom: 1px solid #EEE;
+  font-size: 20px;
+}
+
+#sidebar .nav-link {
+  color: #000;
+}
+
+.main {
+  position: absolute;
+  left: 300px;
 }
 
