@@ -1,5 +1,6 @@
 @extends('master') @section('title') Artists @endsection @section('content')
 
+<div class="container-fluid mx-2">
 <div class="row">
   <div class="col-sm-12 col-md-6 col-lg-3">
     <div id="sidebar">
@@ -220,7 +221,7 @@
   </div>
 
 
-
+</div>
 </div>
 
 
