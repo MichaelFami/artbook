@@ -28,6 +28,12 @@
 
     <div id="accordion" class="col-sm-12 col-md-6 col-lg-9">
 
+      <!-- PROFILE PICTURE -->
+      <div class="input-group mb-2">
+        <label for="exampleFormControlFile1">Upload New Work</label>
+        <input type="file" name="newArt" class="form-control-file" id="exampleFormControlFile1">
+      </div>
+
       <!-- BIOGRAPHY -->
       <div id="collapseOne" class="container collapse show" aria-labelledby="headingOne" data-parent="#accordion">
         <div class="row mt-5">
