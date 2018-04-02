@@ -17,9 +17,7 @@ Route::get('index', function () {
     return view('index');
 });
 
-Route::get('home', function () {
-    return view('home');
-});
+
 
 Route::get('artist', 'ArtController@fillDirectoryProfile');
 
@@ -27,7 +25,7 @@ Auth::routes();
 
 Route::post('/upload_art', 'ArtController@upload_art');
 
-Route::get('/directory', 'ArtController@fillDirectory');
+Route::get('/home', 'ArtController@fillDirectory');
 
 
 Route::get('logout', 'HomeController@logout');
