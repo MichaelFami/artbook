@@ -27,7 +27,7 @@ Route::get('artist', function () {
 
 Auth::routes();
 
-Route::post('upload_art', 'ArtController@upload_art');
+Route::post('/upload_art', 'ArtController@upload_art');
 
 Route::get('/directory', 'ArtController@fillDirectory');
 

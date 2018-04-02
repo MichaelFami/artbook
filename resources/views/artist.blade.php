@@ -15,7 +15,7 @@
                         <div><i class="fab fa-linkedin-in fa-lg mx-3"></i></div>
                     </div>
                     <div class="card-body">
-                        <form action="upload_art" method="post" enctype="multipart/form-data">
+                        <form action="/upload_art" method="post" enctype="multipart/form-data">
                             @csrf
                             <div class="input-group mb-2">
                                 <label for="exampleFormControlFile1">Upload New Work</label>
