@@ -35,7 +35,7 @@ class CreateUser extends Migration
      */
     public function down()
     {
-      Schema::dropIfExists('user');
+      Schema::dropIfExists('users');
       Schema::dropIfExists('artwork');
     }
 }
