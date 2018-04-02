@@ -7,7 +7,7 @@
         <div class="profile m-3">
           <img class="card-img-top rounded-circle" src="/img/person1.jpg" width="100%" height="100%" alt="">
           <a href=""><h5 class="text-center mt-2">Edit Photo</h5></a>
-          <h1 class="text-center">John Doe</h1>
+          <h1 class="text-center">{{ $user->name}}</h1>
         </div>
         <ul class="list-unstyled text-center">
           <li class="nav-item">
@@ -20,7 +20,7 @@
             <a href="#" class="nav-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">DIRECTORY</a>
           </li>
           <li class="nav-item">
-            <a href="mailto:" class="nav-link">CONTACT ME</a>
+            <a href="mailto:{{ $user->email}}" class="nav-link">CONTACT ME</a>
           </li>
         </ul>
       </div>
@@ -32,7 +32,7 @@
       <div id="collapseOne" class="container collapse show" aria-labelledby="headingOne" data-parent="#accordion">
         <div class="row mt-5">
           <div class="col bio-content">
-            <h1>John Doe</h1>
+            <h1>{{ $user->name}}</h1>
             <br>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae consequatur exercitationem, neque dolorum molestias asperiores magni nisi debitis consectetur hic, nam culpa. Accusamus exercitationem ut tempora corporis nesciunt repellendus
               impedit?
