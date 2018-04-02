@@ -36,6 +36,19 @@ class ArtController extends Controller
         }
     }
 
+    public function upload_photo(Request $request)
+    {
+        if (!empty($request->file('newPhoto'))) {
+            $request->file('newPhoto')->store('public');
+            $user= User::find(Auth::id());
+            $user->profile_image_path = $request->newPhoto->hashName();
+            $user->save();
+
+            return back();
+        }
+    }
+
+
     public function fillDirectory(){
         $user = User::get();
         $artwork = Artwork::get();
