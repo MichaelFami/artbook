@@ -41,7 +41,7 @@
           @endguest
           @auth
           <li class="nav-item">
-            <a href="/home" class="nav-link">Home</a>
+            <a href="home" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
             <a href="artist" class="nav-link"><i class="fas fa-user"></i> Profile</a>

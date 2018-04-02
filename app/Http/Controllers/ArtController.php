@@ -43,7 +43,7 @@ class ArtController extends Controller
         $data = [
             'artwork' => $artwork
         ];
-        return view('directory')->with($data);
+        return view('home')->with($data);
     }
 
     public function fillDirectoryProfile(){
