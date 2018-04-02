@@ -49,7 +49,8 @@ class ArtController extends Controller
         $uploadedArtwork = Artwork::where('user_id', '=', Auth::id())
         ->get();
         $data = [
-            'uploadedArtwork' => $uploadedArtwork
+            'uploadedArtwork' => $uploadedArtwork,
+            'user' => $user
         ];
         return view('artist')->with($data);
     }
