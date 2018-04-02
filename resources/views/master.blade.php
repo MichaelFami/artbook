@@ -44,9 +44,6 @@
             <a href="/home" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="directory" class="nav-link">Artists</a>
-          </li>
-          <li class="nav-item">
             <a href="artist" class="nav-link"><i class="fas fa-user"></i> Profile</a>
           </li>
           <li class="nav-item">
