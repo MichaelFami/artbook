@@ -90,7 +90,7 @@
 <div class="container-fluid mx-2 mt-5">
   <div class="card-columns justify-content-center">
     <div class="card">
-      <img class="card-img-top" src="https://via.placeholder.com/242X260" alt="Card image cap">
+      <img class="card-img-top" src="https://via.placeholder.com/230X290" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title"><strong>ART TITLE</strong></h5>
       <p class="card-text">by: (Artist Name)</p>
