@@ -37,11 +37,13 @@ class ArtController extends Controller
     }
 
     public function fillDirectory(){
-        $artwork = Artwork::with('user')->get();
+        $user = User::find(Auth::id());
+        $artwork = Artwork::where('user_id', '=', Auth::id())
+        ->get();
         $data = [
             'artwork' => $artwork
         ];
-        return view('home')->with($data);
+        return view('directory')->with($data);
     }
 
     public function fillDirectoryProfile(){
