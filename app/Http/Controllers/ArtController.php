@@ -27,8 +27,10 @@ class ArtController extends Controller
             $artwork->description = $request->artDescription;
             $artwork->image_path = $request->newArt->hashName();
             $artwork->price= $request->artPrice;
+            $artwork->type = $request->artType;
+            $artwork->medium = $request->artMedium;
+            $artwork->style = $request->artStyle;
             $artwork->save();
-
 
             return back();
         }
@@ -36,11 +38,6 @@ class ArtController extends Controller
 
     public function fillDirectory(){
         $user = User::find(Auth::id());
-
-
-
-
-
         $artwork = Artwork::where('user_id', '=', Auth::id())
         ->get();
         $data = [
