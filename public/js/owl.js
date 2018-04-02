@@ -17,15 +17,3 @@ $(document).ready(function(){
     }
 })
 });
-
-$('#biography').click(function(){
-  $('.main-content').hide();
-});
-
-$('#upload').click(function(){
-  $('main-content').hide();
-});
-
-$('#directory').click(function(){
-  $('.main-content').hide();
-});

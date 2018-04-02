@@ -1,7 +1,7 @@
 @extends('master') @section('title') Artists @endsection @section('content')
 
 <div class="row">
-  <div class="col-3">
+  <div class="col-sm-12 col-md-6 col-lg-3">
     <div id="sidebar">
       <div class="profile m-3">
         <img class="card-img-top rounded-circle" src="/img/person1.jpg" width="100%" height="100%" alt="">
@@ -10,13 +10,13 @@
       </div>
       <ul class="list-unstyled text-center">
         <li class="nav-item">
-          <a href="#biography" class="nav-link" data-toggle="collapse" data-target="#biography">BIOGRAPHY</a>
+          <a href="" class="nav-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">BIOGRAPHY</a>
         </li>
         <li class="nav-item">
-          <a href="/upload" class="nav-link" data-toggle="collapse" data-target="#upload">UPLOAD ART</a>
+          <a href="" class="nav-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">UPLOAD ART</a>
         </li>
         <li class="nav-item">
-          <a href="" class="nav-link" data-toggle="collapse" data-target="#directory">DIRECTORY</a>
+          <a href="#" class="nav-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">DIRECTORY</a>
         </li>
         <li class="nav-item">
           <a href="mailto:" class="nav-link">CONTACT ME</a>
@@ -25,12 +25,12 @@
     </div>
   </div>
 
-  <div class="col-9">
+  <div id="accordion" class="col-sm-12 col-md-6 col-lg-9">
 
     <!-- BIOGRAPHY -->
-    <div id="biography" class="container collapse show">
+    <div id="collapseOne" class="container collapse show" aria-labelledby="headingOne" data-parent="#accordion">
       <div class="row mt-5">
-        <div class="col main-content">
+        <div class="col bio-content">
           <h1>John Doe</h1>
           <br>
           <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae consequatur exercitationem, neque dolorum molestias asperiores magni nisi debitis consectetur hic, nam culpa. Accusamus exercitationem ut tempora corporis nesciunt repellendus
@@ -47,9 +47,9 @@
 
     <!-- UPLOAD ART -->
 
-    <div id="upload" class="container collapse">
+    <div id="collapseTwo" class="container collapse" aria-labelledby="headingTwo" data-parent="#accordion">
       <div class="row mt-5">
-        <div class="col main-content">
+        <div class="col upload-content">
           <div class="card-body">
             <form action="upload_art" method="post" enctype="multipart/form-data">
               @csrf
@@ -141,9 +141,9 @@
 
 
     <!-- DIRECTORY -->
-    <div id="directory" class="container main collapse">
+    <div id="collapseThree" class="container collapse" aria-labelledby="headingThree" data-parent="#accordion">
       <div class="row">
-        <div class="col main-content">
+        <div class="col directory-content">
           <h1 class="my-4 text-center text-lg-left">My Directory</h1>
           <div class="row text-center text-lg-left">
               @foreach ($artwork as $img)
