@@ -46,4 +46,14 @@ class ArtController extends Controller
         return view('directory')->with($data);
     }
 
+    public function fillDirectoryProfile(){
+        $user = User::find(Auth::id());
+        $uploadedArtwork = Artwork::where('user_id', '=', Auth::id())
+        ->get();
+        $data = [
+            'uploadedArtwork' => $uploadedArtwork
+        ];
+        return view('artist')->with($data);
+    }
+
 }

@@ -21,14 +21,13 @@ Route::get('home', function () {
     return view('home');
 });
 
-Route::get('artist', function () {
-    return view('artist');
-});
+Route::get('artist', 'ArtController@fillDirectoryProfile');
 
 Auth::routes();
 
 Route::post('/upload_art', 'ArtController@upload_art');
 
 Route::get('/directory', 'ArtController@fillDirectory');
+
 
 Route::get('logout', 'HomeController@logout');
