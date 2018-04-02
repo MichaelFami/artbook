@@ -21,11 +21,6 @@ class ArtController extends Controller
         if (!empty($request->file('newArt'))) {
             $request->file('newArt')->store('public');
 
-            Log::debug($request->newArt->path());
-            Log::debug($request->file('newArt'));
-
-            Log::debug($request->newArt->hashName());
-
             $artwork = new Artwork;
             $artwork->user_id = Auth::id();
             $artwork->name= $request->artName;
@@ -33,6 +28,7 @@ class ArtController extends Controller
             $artwork->image_path = $request->newArt->hashName();
             $artwork->price= $request->artPrice;
             $artwork->save();
+
 
             return back();
         }

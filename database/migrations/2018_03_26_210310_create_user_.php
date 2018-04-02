@@ -20,6 +20,9 @@ class CreateUser extends Migration
           $table->string('description');
           $table->string('image_path');
           $table->integer('price');
+          $table->string('type');
+          $table->string('medium');
+          $table->string('style');
           $table->timestamps();
           $table->foreign('user_id')->references('id')->on('users');
       });
