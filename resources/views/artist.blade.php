@@ -146,6 +146,13 @@
         <div class="col main-content">
           <h1 class="my-4 text-center text-lg-left">My Directory</h1>
           <div class="row text-center text-lg-left">
+              @foreach ($artwork as $img)
+                  <div class="col-lg-3 col-md-4 col-xs-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                      <img class="img-fluid img-thumbnail" src="{{asset('storage/'.$img->image_path) }}" alt="">
+                    </a>
+                  </div>
+              @endforeach
             <div class="col-lg-3 col-md-4 col-xs-6">
               <a href="#" class="d-block mb-4 h-100">
                 <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
