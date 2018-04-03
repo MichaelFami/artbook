@@ -48,6 +48,18 @@ class ArtController extends Controller
         }
     }
 
+    public function upload_bio(Request $request)
+    {
+        if (!empty($request->newBio)) {
+            $user= User::find(Auth::id());
+            $user->bio = $request->newBio;
+            $user->save();
+
+            return back();
+        }
+
+    }
+
 
     public function fillDirectory(){
         $user = User::get();

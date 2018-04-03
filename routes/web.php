@@ -27,6 +27,9 @@ Route::post('/upload_art', 'ArtController@upload_art');
 
 Route::post('/upload_photo', 'ArtController@upload_photo');
 
+Route::post('/upload_bio', 'ArtController@upload_bio');
+
+
 
 Route::get('/home', 'ArtController@fillDirectory');
 

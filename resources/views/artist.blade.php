@@ -51,16 +51,19 @@
                     <div class="col bio-content">
                         <h1>{{ $user->name}}</h1>
                         <br>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae consequatur exercitationem, neque dolorum molestias asperiores magni nisi debitis consectetur hic, nam culpa. Accusamus exercitationem ut tempora corporis nesciunt
-                            repellendus impedit?
+                        <p class="lead">{{$user->bio}}
                         </p>
-                        <br>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate sint, nihil dolore soluta magnam porro consectetur nisi facilis! Culpa obcaecati ea sapiente quia ipsa distinctio hic harum, voluptas in sit.</p>
-                        <br>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, amet. Explicabo sit assumenda modi totam dicta, voluptatum adipisci magnam aperiam sint molestiae eum vel libero possimus accusantium ratione cum, excepturi et quam
-                            eaque doloremque provident reiciendis est! Tempora id harum ad sunt, maiores suscipit. Asperiores sapiente quaerat ullam quisquam at.</p>
+
                     </div>
                 </div>
+                <form action="upload_bio" method="post" enctype="multipart/form-data">
+                    @csrf
+                    <div class="input-group mb-2">
+                        <label for="exampleFormControlTextarea5">Upload New Bio</label>
+                        <textarea name="newBio" class="form-control" id="exampleFormControlTextarea5" rows="3"></textarea>
+                        <button type="submit" name="button">Submit</button>
+                    </div>
+                </form>
             </div>
 
             <!-- UPLOAD ART -->
