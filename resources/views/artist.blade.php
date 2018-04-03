@@ -1,4 +1,4 @@
-@extends('master') @section('title') Profile @endsection @section('content')
+@extends('master') @section('title') Exhibit @endsection @section('content')
 
 <div class="container-fluid mx-2">
     <div class="row">

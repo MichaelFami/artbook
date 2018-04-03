@@ -17,6 +17,10 @@ Route::get('index', function () {
     return view('index');
 });
 
+Route::get('seeartist', function(){
+  return view('seeartist');
+});
+
 
 
 Route::get('artist', 'ArtController@fillDirectoryProfile');
