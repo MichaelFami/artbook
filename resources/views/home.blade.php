@@ -1,4 +1,4 @@
-@extends('master') @section('title') X-Hibit @endsection @section('content')
+@extends('master') @section('title') Exhibit @endsection @section('content')
 
 <!-- SECONDARY NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
