@@ -6,7 +6,6 @@
             <div id="sidebar">
                 <div class="profile m-3">
                     <img class="card-img-top rounded-circle" src="{{asset('storage/'.$user->profile_image_path) }}" width="100%" height="100%" alt="">
-                    <a href=""><h5 class="text-center mt-2">Edit Photo</h5></a>
                     <h1 class="text-center">{{ $user->name}}</h1>
                 </div>
                 <ul class="list-unstyled text-center">
