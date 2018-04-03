@@ -26,7 +26,7 @@
   <nav class="nav navbar navbar-expand-sm navbar-light">
     <div class="container">
       <a href="#" class="navbar-brand">
-        <h3>Artbook</h3>
+        <h3>Exhibit</h3>
       </a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -34,9 +34,6 @@
           @guest
           <li class="nav-item">
             <a href="login" class="nav-link">Sign In</a>
-          </li>
-          <li class="nav-item">
-            <a href="register" class="nav-link">Register</a>
           </li>
           @endguest
           @auth
