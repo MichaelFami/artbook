@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/app.css">
   <link rel="stylesheet" href="/css/owl.carousel.min.css">
-<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="/css/owl.theme.default.min.css">
 
   <title>@yield('title')</title>
 
@@ -23,7 +23,8 @@
 </head>
 
 <body>
-  <nav class="nav navbar navbar-expand-sm navbar-light">
+<div class="wrapper">
+  <nav class="nav navbar navbar-expand-sm">
     <div class="container">
       <a href="#" class="navbar-brand">
         <h3>Exhibit</h3>
@@ -33,24 +34,25 @@
         <ul class="navbar-nav ml-auto">
           @guest
           <li class="nav-item">
-            <a href="login" class="nav-link">Sign In</a>
+            <a href="login" class="nav-link text-white">Sign In</a>
           </li>
           @endguest
           @auth
           <li class="nav-item">
-            <a href="home" class="nav-link">Home</a>
+            <a href="home" class="nav-link text-white"><strong>Home</strong></a>
           </li>
           <li class="nav-item">
-            <a href="artist" class="nav-link">Profile</a>
+            <a href="artist" class="nav-link text-white"><strong>Profile</strong></a>
           </li>
           <li class="nav-item">
-            <a href="{{ url('/logout') }}" class="nav-link">Sign Out</a>
+            <a href="{{ url('/logout') }}" class="nav-link text-white"><strong>Sign Out</strong></a>
           </li>
           @endauth
         </ul>
       </div>
     </div>
   </nav>
+</div>
 
   @yield('content')
 
@@ -69,7 +71,7 @@
 </body>
 
 <div class="container-fluid mt-5">
-  <footer class="footer fixed-bottom">
+  <footer class="footer">
       <div class="text-center py-4 bg-secondary">
         <span class="text-white">Copyright 	&copy; Exhibit 2018</span>
       </div>

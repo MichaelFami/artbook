@@ -39,7 +39,7 @@
                         <div class="col-lg-4">
                             <div class="card text-center card-form">
                                 <div class="card-body text-white">
-                                    <h3>Sign Up Today</h3>
+                                    <h3>Register Today</h3>
                                     <p>Please fill out this form to register</p>
                                     <form method="POST" action="{{ route('register') }}">
                                         @csrf
