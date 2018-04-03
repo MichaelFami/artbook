@@ -70,4 +70,15 @@
 
 
 </body>
+
+<div class="container-fluid mt-5">
+  <footer class="footer fixed-bottom">
+      <div class="text-center py-4 bg-secondary">
+        <span class="text-white">Copyright 	&copy; Exhibit 2018</span>
+      </div>
+    </footer>
+</div>
+
+
+
 </html>
