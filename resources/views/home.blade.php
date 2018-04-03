@@ -94,7 +94,7 @@
             <img class="card-img-top" src="{{asset('storage/'.$img->image_path) }}" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title"><strong>{{$img->name}}</strong></h5>
-                <p class="card-text">by: {{ $img->user->name }}</p>
+                <a href="{{action('ArtController@fillOtherProfile')}}">by:{{ $img->user->name }}</a>
                 <p class="card-text">{{ $img->type }} / {{ $img->medium }} / {{ $img->style }}</p>
                 <p class="card-text">${{ $img->price }}</p>
 
