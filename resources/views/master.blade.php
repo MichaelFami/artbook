@@ -26,7 +26,7 @@
   <div class="wrapper">
     <nav class="nav navbar navbar-expand-sm">
       <div class="container">
-        <a href="#" class="navbar-brand">
+        <a href="/" class="navbar-brand">
           <h3>Exhibit</h3>
         </a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
