@@ -9994,6 +9994,15 @@ a.text-dark:focus {
   }
 }
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
 .jumbotron-fluid {
   background: url("/img/home.jpg");
 }
@@ -10139,5 +10148,11 @@ a.text-dark:focus {
 .main {
   position: absolute;
   left: 300px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 

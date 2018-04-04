@@ -9,6 +9,14 @@ $secondaryFontSize: 30px;
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
 
 .jumbotron-fluid {
     background: url("/img/home.jpg");
@@ -112,4 +120,10 @@ $secondaryFontSize: 30px;
 .main {
   position: absolute;
   left: 300px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
