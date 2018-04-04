@@ -8,31 +8,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 d-none d-lg-block">
-                            <h1 class="display-4 text-white">lorem15lorem15labellore</h1>
+                            <h1 class="display-4 text-white">Welcome to EXHIBIT</h1>
                             <div class="d-flex flex-row">
-                                <div class="p-4 align-self-start">
-                                    <i class="fa fa-check check1"></i>
-                                </div>
-                                <div class="p-4 align-self-end text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.
-                                </div>
-                            </div>
-
-                            <div class="d-flex flex-row">
-                                <div class="p-4 align-self-start">
-                                    <i class="fa fa-check check1"></i>
-                                </div>
-                                <div class="p-4 align-self-end text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.
-                                </div>
-                            </div>
-
-                            <div class="d-flex flex-row">
-                                <div class="p-4 align-self-start">
-                                    <i class="fa fa-check check1"></i>
-                                </div>
-                                <div class="p-4 align-self-end text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.
+                                <div class="p-4 align-self-start text-white"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae veniam, repellat saepe eaque quidem hic.
                                 </div>
                             </div>
                         </div>
