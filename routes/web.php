@@ -17,7 +17,7 @@ Route::get('index', function () {
     return view('index');
 });
 
-Route::get('seeartist', 'ArtController@fillOtherProfile');
+Route::get('/seeartist/{id}', 'ArtController@fillOtherProfile');
 
 
 
