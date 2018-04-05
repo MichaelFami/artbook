@@ -12,12 +12,13 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Type
             </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Painting</a>
-                        <a class="dropdown-item" href="#">Photograph</a>
-                        <a class="dropdown-item" href="#">Mixed Media</a>
-                        <a class="dropdown-item" href="#">Drawing</a>
-                        <a class="dropdown-item" href="#">Sculpture</a>
+                    <div  class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="?type=landscape">Landscape</a>
+                        <a class="dropdown-item" href="?type=painting">Painting</a>
+                        <a class="dropdown-item" href="?type=photograph">Photograph</a>
+                        <a class="dropdown-item" href="?type=mixedmedia">Mixed Media</a>
+                        <a class="dropdown-item" href="?type=drawing">Drawing</a>
+                        <a class="dropdown-item" href="?type=sculpture">Sculpture</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -25,22 +26,22 @@
               Medium
             </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Oil</a>
-                        <a class="dropdown-item" href="#">Acrylic</a>
-                        <a class="dropdown-item" href="#">Tempura</a>
-                        <a class="dropdown-item" href="#">Ink</a>
-                        <a class="dropdown-item" href="#">Ceramic/a>
-            <a class="dropdown-item" href="#">Wood</a>
-                        <a class="dropdown-item" href="#">Wire</a>
-                        <a class="dropdown-item" href="#">Plaster</a>
-                        <a class="dropdown-item" href="#">Marble</a>
-                        <a class="dropdown-item" href="#">Graphite</a>
-                        <a class="dropdown-item" href="#">Pen</a>
-                        <a class="dropdown-item" href="#">Charcoal</a>
-                        <a class="dropdown-item" href="#">Paper</a>
-                        <a class="dropdown-item" href="#">Colored Pencil</a>
-                        <a class="dropdown-item" href="#">Oil Pastel</a>
-                        <a class="dropdown-item" href="#">Soft Pastel</a>
+                        <a class="dropdown-item" href="?medium=oil">Oil</a>
+                        <a class="dropdown-item" href="?medium=acrylic">Acrylic</a>
+                        <a class="dropdown-item" href="?medium=tempura">Tempura</a>
+                        <a class="dropdown-item" href="?medium=ink">Ink</a>
+                        <a class="dropdown-item" href="?medium=ceramic">Ceramic/a>
+            <a class="dropdown-item" href="?medium=wood">Wood</a>
+                        <a class="dropdown-item" href="?medium=wire">Wire</a>
+                        <a class="dropdown-item" href="?medium=plaster">Plaster</a>
+                        <a class="dropdown-item" href="?medium=marble">Marble</a>
+                        <a class="dropdown-item" href="?medium=graphite">Graphite</a>
+                        <a class="dropdown-item" href="?medium=pen">Pen</a>
+                        <a class="dropdown-item" href="?medium=charcoal">Charcoal</a>
+                        <a class="dropdown-item" href="?medium=paper">Paper</a>
+                        <a class="dropdown-item" href="?medium=coloredpencil">Colored Pencil</a>
+                        <a class="dropdown-item" href="?medium=oilpastel">Oil Pastel</a>
+                        <a class="dropdown-item" href="?medium=softpastel">Soft Pastel</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -48,23 +49,23 @@
               Style
             </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Abstract</a>
-                        <a class="dropdown-item" href="#">Contemporary</a>
-                        <a class="dropdown-item" href="#">Baroque</a>
-                        <a class="dropdown-item" href="#">Renaissance</a>
-                        <a class="dropdown-item" href="#">Pointillism</a>
-                        <a class="dropdown-item" href="#">Expressionism</a>
-                        <a class="dropdown-item" href="#">Impressionism</a>
-                        <a class="dropdown-item" href="#">Cubism</a>
-                        <a class="dropdown-item" href="#">Pop Art</a>
-                        <a class="dropdown-item" href="#">Modernism</a>
-                        <a class="dropdown-item" href="#">Gothic</a>
-                        <a class="dropdown-item" href="#">Surrealism</a>
-                        <a class="dropdown-item" href="#">Realism</a>
-                        <a class="dropdown-item" href="#">Hyper Realism</a>
-                        <a class="dropdown-item" href="#">Rococo</a>
-                        <a class="dropdown-item" href="#">Byzantine</a>
-                        <a class="dropdown-item" href="#">Romanticism</a>
+                        <a class="dropdown-item" href="?style=abstract">Abstract</a>
+                        <a class="dropdown-item" href="?style=contemporary">Contemporary</a>
+                        <a class="dropdown-item" href="?style=baroque">Baroque</a>
+                        <a class="dropdown-item" href="?style=renaissance">Renaissance</a>
+                        <a class="dropdown-item" href="?style=pointilism">Pointillism</a>
+                        <a class="dropdown-item" href="?style=expressionism">Expressionism</a>
+                        <a class="dropdown-item" href="?style=impressionism">Impressionism</a>
+                        <a class="dropdown-item" href="?style=cubism">Cubism</a>
+                        <a class="dropdown-item" href="?style=popart">Pop Art</a>
+                        <a class="dropdown-item" href="?style=modernism">Modernism</a>
+                        <a class="dropdown-item" href="?style=gothic">Gothic</a>
+                        <a class="dropdown-item" href="?style=">Surrealism</a>
+                        <a class="dropdown-item" href="?style=">Realism</a>
+                        <a class="dropdown-item" href="?style=">Hyper Realism</a>
+                        <a class="dropdown-item" href="?style=">Rococo</a>
+                        <a class="dropdown-item" href="?style=">Byzantine</a>
+                        <a class="dropdown-item" href="?style=">Romanticism</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">

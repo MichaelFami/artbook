@@ -61,9 +61,10 @@ class ArtController extends Controller
     }
 
 
-    public function fillDirectory(){
+    public function fillDirectory(Request $request){
         $user = User::get();
-        $artwork = Artwork::get();
+        $query = $request->query();
+        $artwork = Artwork::where($query)->get();
         $data = [
             'artwork' => $artwork
         ];
@@ -91,6 +92,24 @@ class ArtController extends Controller
         ];
         return view('seeartist')->with($data);
     }
+
+
+   //  public function search(Request $request)
+   // {
+   //     $this->middleware(‘auth’);
+   //     $query = $request->query();
+   //
+   //     $results = [];
+   //     if (!empty($query)) {
+   //         $results = User::where($query)->get();
+   //     }
+   //
+   //     $data = [
+   //         ‘results’ => $results
+   //     ];
+   //
+   //     return back()->with($results);
+   // }
 
 
 
