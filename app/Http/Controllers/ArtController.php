@@ -18,7 +18,7 @@ class ArtController extends Controller
 {
     public function upload_art(Request $request)
     {
-        if (!empty($request->file('newArt')) && !empty($request->artDescription)) {
+        if (!empty($request->file('newArt'))) {
             $request->file('newArt')->store('public');
 
             $artwork = new Artwork;
@@ -33,13 +33,15 @@ class ArtController extends Controller
             $artwork->save();
 
             return back();
-        } else {
-          return back();
         }
     }
 
     public function upload_photo(Request $request)
     {
+        $s3 = Aws\S3\S3Client::factory();
+        $bucket = getenv('vtaexhibit')?: die('No "S3_BUCKET" config var in found in env!');
+        $upload = $s3->upload($bucket, $request->file('newPhoto'), fopen($request->file('newPhoto'), 'rb'), 'public-read');
+        return $upload->get('ObjectURL');
         if (!empty($request->file('newPhoto'))) {
             $request->file('newPhoto')->store('public');
             $user= User::find(Auth::id());
