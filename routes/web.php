@@ -37,3 +37,4 @@ Route::get('/home', 'ArtController@fillDirectory');
 
 
 Route::get('logout', 'HomeController@logout');
+Route::get('search', 'ArtController@search');
