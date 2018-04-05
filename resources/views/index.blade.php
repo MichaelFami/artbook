@@ -86,7 +86,7 @@
 </section>
 
 <!-- RECENT ARTWORK -->
-<section>
+<!-- <section>
     <div id="recent_list" class="py-5">
         <div class="container-fluid">
             <div class="row">
@@ -124,7 +124,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- TESTIMONIALS -->
 <section id="testimonial">
@@ -212,7 +212,7 @@
 </section>
 
 <!-- FEATURED ARTISTS -->
-<section id="artist" class="py-5">
+<!-- <section id="artist" class="py-5">
     <div class="container-fluid">
         <h3>FEATURED ARTISTS</h3>
         <hr>
@@ -235,7 +235,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 
