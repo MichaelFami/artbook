@@ -86,7 +86,7 @@
 </section>
 
 <!-- RECENT ARTWORK -->
-<section>
+<!-- <section>
     <div id="recent_list" class="py-5">
         <div class="container-fluid">
             <div class="row">
@@ -124,7 +124,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- TESTIMONIALS -->
 <section id="testimonial">
@@ -146,8 +146,7 @@
                             <div class="col-lg-6 mt-2">
                                 <p class=""><i class="fas fa-quote-right fa-2x"></i></p>
                                 <div class="d-flex flex-row">
-                                    <div class="align-self-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat.
+                                    <div class="align-self-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.
                                     </div>
                                 </div>
                             </div>
@@ -212,7 +211,7 @@
 </section>
 
 <!-- FEATURED ARTISTS -->
-<section id="artist" class="py-5">
+<!-- <section id="artist" class="py-5">
     <div class="container-fluid">
         <h3>FEATURED ARTISTS</h3>
         <hr>
@@ -235,7 +234,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 
