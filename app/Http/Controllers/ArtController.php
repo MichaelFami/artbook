@@ -18,7 +18,7 @@ class ArtController extends Controller
 {
     public function upload_art(Request $request)
     {
-        if (!empty($request->file('newArt'))) {
+        if (!empty($request->file('newArt')) && !empty($request->artDescription)) {
             $request->file('newArt')->store('public');
 
             $artwork = new Artwork;
