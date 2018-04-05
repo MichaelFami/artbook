@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Logger
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -13,7 +14,14 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-      //
+      // Send errors to slack channel
+      $monolog = Log::getMonolog();
+      if (!env('local')) {
+        $slackHandler = new SlackWebhookHandler(env('https://hooks.slack.com/services/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'), '#erros', 'App Alerts', false, 'warning', true, true, Logger::ERROR);
+      } else {
+        // $slackHandler = new SlackWebhookHandler(env('https://hooks.slack.com/services/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'), '@wes', 'App Alerts', false, 'warning', true, true, Logger::ERROR);
+      }
+        $monolog->pushHandler($slackHandler);
     }
 
     /**
