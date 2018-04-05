@@ -38,10 +38,10 @@ class ArtController extends Controller
 
     public function upload_photo(Request $request)
     {
-        $s3 = Aws\S3\S3Client::factory();
-        $bucket = getenv('vtaexhibit')?: die('No "S3_BUCKET" config var in found in env!');
-        $upload = $s3->upload($bucket, $request->file('newPhoto'), fopen($request->file('newPhoto'), 'rb'), 'public-read');
-        return $upload->get('ObjectURL');
+        // $s3 = Aws\S3\S3Client::factory();
+        // $bucket = getenv('vtaexhibit')?: die('No "S3_BUCKET" config var in found in env!');
+        // $upload = $s3->upload($bucket, $request->file('newPhoto'), fopen($request->file('newPhoto'), 'rb'), 'public-read');
+        // return $upload->get('ObjectURL');
         if (!empty($request->file('newPhoto'))) {
             $request->file('newPhoto')->store('public');
             $user= User::find(Auth::id());
