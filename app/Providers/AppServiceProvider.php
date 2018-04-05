@@ -3,7 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Logger;
+use Illuminate\Log\Logger;
 use Log;
 
 class AppServiceProvider extends ServiceProvider
