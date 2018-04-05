@@ -33,6 +33,8 @@ class ArtController extends Controller
             $artwork->save();
 
             return back();
+        } else {
+          return back();
         }
     }
 
