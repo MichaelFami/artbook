@@ -6,7 +6,7 @@
             <div id="sidebar">
                 <div class="profile m-3">
                     <img class="card-img-top rounded-circle" src="" width="100%" height="100%" alt="">
-                    <h1 class="text-center">{{$user->name}}</h1>
+                    <h1 class="text-center">{{$otherUser->name}}</h1>
                 </div>
                 <ul class="list-unstyled text-center">
                     <li class="nav-item">
@@ -17,7 +17,7 @@
                         <a href="#" class="nav-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">DIRECTORY</a>
                     </li>
                     <li class="nav-item">
-                        <a href="mailto:{{ $user->email }}" class="nav-link">CONTACT ME</a>
+                        <a href="mailto:{{ $otherUser->email }}" class="nav-link">CONTACT ME</a>
                     </li>
                 </ul>
             </div>
@@ -30,10 +30,10 @@
             <div id="collapseOne" class="container collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="row mt-5">
                     <div class="col bio-content">
-                        <h1>{{$user->name}}</h1>
+                        <h1>{{$otherUser->name}}</h1>
                         <br>
                         <p class="lead">
-                            {{ $user->bio }}
+                            {{ $otherUser->bio }}
                         </p>
 
                     </div>

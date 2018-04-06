@@ -33,7 +33,7 @@ Route::post('/upload_bio', 'ArtController@upload_bio');
 
 
 
-Route::get('/home', 'ArtController@fillDirectory');
+Route::get('home', 'ArtController@fillDirectory');
 
 
 Route::get('logout', 'HomeController@logout');
