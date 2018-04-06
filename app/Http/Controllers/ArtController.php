@@ -100,6 +100,7 @@ class ArtController extends Controller
     }
 
 
+
    //  public function search(Request $request)
    // {
    //     $this->middleware(‘auth’);
