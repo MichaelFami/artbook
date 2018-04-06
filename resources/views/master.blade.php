@@ -56,7 +56,7 @@
   @yield('content')
 
   <footer class="footer">
-    <div class="container-fluid text-center py-4 bg-secondary">
+    <div class="container-fluid text-center py-4 bg-dark">
     <span class="text-white">Copyright 	&copy; Exhibit 2018</span>
     </div>
   </footer>
