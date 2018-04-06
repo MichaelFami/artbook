@@ -10,8 +10,12 @@
                         <div class="col-lg-8 d-none d-lg-block">
                             <h1 class="display-4 text-white">Welcome to EXHIBIT</h1>
                             <div class="d-flex flex-row">
-                                <div class="p-4 align-self-start text-white"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae veniam, repellat saepe eaque quidem hic.
-                                </div>
+                                <h3 class="p-4 align-self-start text-white"> An online resource for local artists to <strong>SHOWCASE</strong>, and/or <strong>SELL</strong> their work. Become inspired by unique from Artists of every medium.
+                                </h3>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <h3 class="p-4 align-self-start text-white"><strong>START YOUR BROWSING</strong>
+                                </h3>
                             </div>
                         </div>
                         <div class="col-lg-4">
