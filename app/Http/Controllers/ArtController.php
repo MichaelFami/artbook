@@ -87,12 +87,14 @@ class ArtController extends Controller
     }
 
     public function fillOtherProfile($id){
-        $user = User::find($id);
+        $user = User::find(Auth::id());
+        $otherUser = User::find($id);
         $uploadedArtwork = Artwork::where('user_id', '=', $id)
         ->get();
         $data = [
             'uploadedArtwork' => $uploadedArtwork,
-            'user' => $user
+            'user' => $user,
+            'otherUser' => $otherUser
         ];
         return view('seeartist')->with($data);
     }

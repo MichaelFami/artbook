@@ -34,14 +34,14 @@
           <ul class="navbar-nav ml-auto">
             @guest
             <li class="nav-item">
-              <a href="login" class="nav-link text-white">Sign In</a>
+              <a href="/login" class="nav-link text-white">Sign In</a>
             </li>
             @endguest @auth
             <li class="nav-item">
-              <a href="home" class="nav-link text-white"><strong>Home</strong></a>
+              <a href="/home" class="nav-link text-white"><strong>Home</strong></a>
             </li>
             <li class="nav-item">
-              <a href="artist" class="nav-link text-white"><strong>Profile</strong></a>
+              <a href="/artist" class="nav-link text-white"><strong>Profile</strong></a>
             </li>
             <li class="nav-item">
               <a href="{{ url('/logout') }}" class="nav-link text-white"><strong>Sign Out</strong></a>
