@@ -44,7 +44,7 @@
                                             </span> @endif
                                         </div>
                                         <div class="form-group">
-                                            <input id="password-confirm" type="password" class="form-control form-control-lg" placeholder="Confrim Password" name="password_confirmation" required>
+                                            <input id="password-confirm" type="password" class="form-control form-control-lg" placeholder="Confirm Password" name="password_confirmation" required>
                                         </div>
                                         <button type="submit" class="btn btn-outline-light btn-block">
                                           {{ __('Register') }}
