@@ -10,7 +10,7 @@
                         <div class="col-lg-8 d-none d-lg-block">
                             <h1 class="display-4 text-white">Welcome to EXHIBIT</h1>
                             <div class="d-flex flex-row">
-                                <h3 class="p-4 align-self-start text-white"> An online resource for local artists to <strong>SHOWCASE</strong>, and/or <strong>SELL</strong> their work. Become inspired by unique from Artists of every medium.
+                                <h3 class="p-4 align-self-start text-white"> An online resource for local artists to <strong>SHOWCASE</strong>, and/or <strong>SELL</strong> their work. Become inspired by unique pieces from Artists of every medium.
                                 </h3>
                             </div>
                             <div class="d-flex flex-row">
@@ -28,27 +28,27 @@
                                         <div class="form-group">
                                             <input name="name" id="name" type="text" class="form-control form-control-lg {{ $errors->has('name') ? ' is-invalid' : '' }}" placeholder="Name" value="{{ old('name') }}" required autofocus> @if ($errors->has('name'))
                                             <span class="invalid-feedback">
-                              <strong>{{ $errors->first('name') }}</strong>
-                          </span> @endif
+                                              <strong>{{ $errors->first('name') }}</strong>
+                                            </span> @endif
                                         </div>
                                         <div class="form-group">
                                             <input id="email" type="email" class="form-control form-control-lg {{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" placeholder="Email" value="{{ old('email') }}" required> @if ($errors->has('email'))
                                             <span class="invalid-feedback">
-                              <strong>{{ $errors->first('email') }}</strong>
-                          </span> @endif
+                                              <strong>{{ $errors->first('email') }}</strong>
+                                            </span> @endif
                                         </div>
                                         <div class="form-group">
                                             <input id="password" type="password" class="form-control form-control-lg {{ $errors->has('password') ? ' is-invalid' : '' }}" placeholder="Password" name="password" required> @if ($errors->has('password'))
                                             <span class="invalid-feedback">
-                              <strong>{{ $errors->first('password') }}</strong>
-                          </span> @endif
+                                              <strong>{{ $errors->first('password') }}</strong>
+                                            </span> @endif
                                         </div>
                                         <div class="form-group">
                                             <input id="password-confirm" type="password" class="form-control form-control-lg" placeholder="Confrim Password" name="password_confirmation" required>
                                         </div>
                                         <button type="submit" class="btn btn-outline-light btn-block">
-                        {{ __('Register') }}
-                    </button>
+                                          {{ __('Register') }}
+                                        </button>
                                     </form>
                                 </div>
                             </div>
@@ -73,24 +73,24 @@
             <div class="col-md-4 text-center">
                 <p class="text-center"><i class="fas fa-search fa-4x"></i></p>
                 <h2>Discover Local Artists</h2>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt accusantium natus tempore fugiat deserunt voluptate, veniam dignissimos ab odit et consequatur, provident reiciendis doloremque ducimus.</p>
+                <p class="text-justify">Find the piece that is destined for you. With countless works of art to choose from, you will find something unique for every space or taste.</p>
             </div>
             <div class="col-md-4 text-center">
                 <p><i class="far fa-heart fa-4x"></i></p>
                 <h2>Love Their Work</h2>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus voluptatem at deleniti odit adipisci sit tempore quasi provident, eos reiciendis nisi, esse molestiae a voluptatibus.</p>
+                <p class="text-justify">With so many art to choose from, you will fall in love with many of our artists work.</p>
             </div>
             <div class="col-md-4 text-center">
                 <p><i class="fas fa-dollar-sign fa-4x"></i></p>
-                <h2>Buy Their Work</h2>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, blanditiis? Consequuntur sequi cumque fugit aliquam minus, numquam maiores, placeat adipisci nesciunt eligendi distinctio, atque, consequatur.</p>
+                <h2>Buy</h2>
+                <p class="text-justify">Support your local artist and own your very own one-of-a-kind art piece.</p>
             </div>
         </div>
     </div>
 </section>
 
 <!-- RECENT ARTWORK -->
-<!-- <section>
+<section>
     <div id="recent_list" class="py-5">
         <div class="container-fluid">
             <div class="row">
@@ -103,32 +103,38 @@
                 <div class="col-12 ">
                     <div id="featured-artist" class="owl-carousel owl-theme">
                         <div class="img-container">
-                            <img class="img-fluid" src="https://picsum.photos/200/200/?random" alt="artwork">
+                            <img class="img-fluid" src="/img/4_piece.jpg" alt="artwork">
                         </div>
                         <div class="img-container">
-                            <img class="img-fluid" src="https://picsum.photos/200/200/?random" alt="artwork">
+                            <img class="img-fluid" src="/img/CSeries_03.jpg" alt="artwork">
                         </div>
                         <div class="img-container">
-                            <img class="img-fluid" src="https://picsum.photos/200/200/?random" alt="artwork">
+                            <img class="img-fluid" src="/img/girl_with_fire_hair_dauntless.jpg" alt="artwork">
                         </div>
                         <div class="img-container">
-                            <img class="img-fluid" src="https://picsum.photos/200/200/?random" alt="artwork">
+                            <img class="img-fluid" src="/img/love_and_laughter.jpg" alt="artwork">
                         </div>
                         <div class="img-container">
-                            <img class="img-fluid" src="https://picsum.photos/200/200/?random" alt="artwork">
+                            <img class="img-fluid" src="/img/opposition-of-flesh-to-spirit.jpg" alt="artwork">
                         </div>
                         <div class="img-container">
-                            <img class="img-fluid" src="https://picsum.photos/200/200/?random" alt="artwork">
+                            <img class="img-fluid" src="/img/girl_with_hat_fluidity.jpg" alt="artwork">
                         </div>
                         <div class="img-container">
-                            <img class="img-fluid" src="https://picsum.photos/200/200/?random" alt="artwork">
+                            <img class="img-fluid" src="/img/frustration.jpg" alt="artwork">
+                        </div>
+                        <div class="img-container">
+                            <img class="img-fluid" src="/img/let_me_gather_the_river.jpg" alt="artwork">
+                        </div>
+                        <div class="img-container">
+                            <img class="img-fluid" src="/img/embrace_and_celebrate.jpg" alt="artwork">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
 <!-- TESTIMONIALS -->
 <section id="testimonial">
@@ -142,17 +148,19 @@
                             <div class="col-lg-6 mt-2">
                                 <p class=""><i class="fas fa-quote-right fa-2x"></i></p>
                                 <div class="d-flex flex-row">
-                                    <div class="align-self-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat.
-                                    </div>
+                                    <div class="align-self-start">Exhibit makes it so easy to get my work out there for all the world to see. For someone who is starting back up again, Exhibit is a great way for my art to gain exposure.</div>
                                 </div>
+                                <br>
+                                <p class="lead">by: Iliana Rodriguez</p>
                             </div>
                             <div class="col-lg-6 mt-2">
                                 <p class=""><i class="fas fa-quote-right fa-2x"></i></p>
                                 <div class="d-flex flex-row">
-                                    <div class="align-self-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.
+                                    <div class="align-self-start">As artists and art lovers, we need a way to communicate and support each other. Exhibit makes is easy to view our colleagues work, meet new artists, and keep in touch.
                                     </div>
                                 </div>
+                                <br>
+                                <p class="lead">by: Luis Corpus</p>
                             </div>
                         </div>
                     </div>
@@ -179,7 +187,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <!-- <div class="carousel-item">
                     <div class="container mb-5">
                         <div class="row">
                             <div class="col-lg-6 mt-2">
@@ -200,7 +208,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>

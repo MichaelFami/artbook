@@ -55,11 +55,11 @@
 
   @yield('content')
 
-    <footer class="footer">
-      <div class="container-fluid text-center py-4 bg-secondary">
-        <span class="text-white">Copyright 	&copy; Exhibit 2018</span>
-      </div>
-    </footer>
+  <footer class="footer">
+    <div class="container-fluid text-center py-4 bg-secondary">
+    <span class="text-white">Copyright 	&copy; Exhibit 2018</span>
+    </div>
+  </footer>
 
 
   <!-- Optional JavaScript -->
