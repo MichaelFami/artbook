@@ -1,7 +1,7 @@
 @extends('master') @section('title') Exhibit @endsection @section('content')
 
 <!-- SECONDARY NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid mx-3">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
