@@ -18,6 +18,9 @@
                                 </h3>
                             </div>
                         </div>
+
+                        @guest
+
                         <div class="col-lg-4">
                             <div class="card text-center card-form">
                                 <div class="card-body text-white">
@@ -26,7 +29,8 @@
                                     <form method="POST" action="{{ route('register') }}">
                                         @csrf
                                         <div class="form-group">
-                                            <input name="name" id="name" type="text" class="form-control form-control-lg {{ $errors->has('name') ? ' is-invalid' : '' }}" placeholder="Name" value="{{ old('name') }}" required autofocus> @if ($errors->has('name'))
+                                            <input name="name" id="name" type="text" class="form-control form-control-lg {{ $errors->has('name') ? ' is-invalid' : '' }}" placeholder="Name" value="{{ old('name') }}" required autofocus>
+                                            @if ($errors->has('name'))
                                             <span class="invalid-feedback">
                                               <strong>{{ $errors->first('name') }}</strong>
                                             </span> @endif
@@ -53,6 +57,9 @@
                                 </div>
                             </div>
                         </div>
+
+                    @endguest
+
                     </div>
                 </div>
             </div>
