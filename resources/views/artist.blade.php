@@ -88,59 +88,60 @@
                                         <span class="input-group-text" id="basic-addon1">Type of Art:</span>
                                     </div>
                                     <select name="artType" class="form-control" id="selectType">
-                  <option value="Landscape">Landscape</option>
-                  <option value="Portrait">Portrait</option>
-                  <option value="Still_Life">Still Life</option>
-                  <option value="Abstract">Abstract</option>
-                  <option value="From_Life">From Life</option>
-                </select>
+                                      <option value="landscape">Landscape</option>
+                                      <option value="portrait">Painting</option>
+                                      <option value="still_life">Photograph</option>
+                                      <option value="mixed_media">Mixed Media</option>
+                                      <option value="drawing">Drawing</option>
+                                      <option value="sculpture">Sculpture</option>
+                                    </select>
                                 </div>
                                 <div class="input-group mb-2">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="basic-addon1">Style:</span>
                                     </div>
                                     <select class="form-control" name="artStyle">
-                  <option value="Abstract">Abstract</option>
-                  <option value="Contemporary">Contemporary</option>
-                  <option value="Baroque">Baroque</option>
-                  <option value="Renaissance">Renaissance</option>
-                  <option value="Pointillism">Pointillism</option>
-                  <option value="Expressionism">Expressionism</option>
-                  <option value="Impressionism">Impressionism</option>
-                  <option value="Cubism">Cubism</option>
-                  <option value="Pop_Art">Pop Art</option>
-                  <option value="Modernism">Modernism</option>
-                  <option value="Gothic">Gothic</option>
-                  <option value="Surrealism">Surrealism</option>
-                  <option value="Realism">Realism</option>
-                  <option value="Hyper_realism">Hyper realism</option>
-                  <option value="Rococo">Rococo</option>
-                  <option value="Byzantine">Byzantine</option>
-                  <option value="Romanticism">Romanticism</option>
-                </select>
+                                      <option value="abstract">Abstract</option>
+                                      <option value="contemporary">Contemporary</option>
+                                      <option value="baroque">Baroque</option>
+                                      <option value="renaissance">Renaissance</option>
+                                      <option value="pointillism">Pointillism</option>
+                                      <option value="expressionism">Expressionism</option>
+                                      <option value="impressionism">Impressionism</option>
+                                      <option value="cubism">Cubism</option>
+                                      <option value="pop_art">Pop Art</option>
+                                      <option value="modernism">Modernism</option>
+                                      <option value="gothic">Gothic</option>
+                                      <option value="surrealism">Surrealism</option>
+                                      <option value="realism">Realism</option>
+                                      <option value="hyper_realism">Hyper realism</option>
+                                      <option value="rococo">Rococo</option>
+                                      <option value="byzantine">Byzantine</option>
+                                      <option value="romanticism">Romanticism</option>
+                                    </select>
                                 </div>
                                 <div class="input-group mb-2">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="basic-addon1">Medium:</span>
                                     </div>
                                     <select class="form-control" name="artMedium">
-                  <option value="Oil">Oil</option>
-                  <option value="Acrylic">Acrylic</option>
-                  <option value="Tempura">Tempura</option>
-                  <option value="Ink">Ink</option>
-                  <option value="Ceramic">Ceramic</option>
-                  <option value="Wood">Wood</option>
-                  <option value="Wire">Wire</option>
-                  <option value="Plaster">Plaster</option>
-                  <option value="Marble">Marble</option>
-                  <option value="Graphite">Graphite</option>
-                  <option value="Pen">Pen</option>
-                  <option value="Charcoal">Charcoal</option>
-                  <option value="Paper">Paper</option>
-                  <option value="Colored pencil">Colored pencil</option>
-                  <option value="Oil pastel">Oil pastel</option>
-                  <option value="Soft pastel">Soft pastel</option>
-                </select>
+                                      <option value="oil">Oil</option>
+                                      <option value="acrylic">Acrylic</option>
+                                      <option value="tempura">Tempura</option>
+                                      <option value="ink">Ink</option>
+                                      <option value="ceramic">Ceramic</option>
+                                      <option value="wood">Wood</option>
+                                      <option value="wire">Wire</option>
+                                      <option value="plaster">Plaster</option>
+                                      <option value="marble">Marble</option>
+                                      <option value="graphite">Graphite</option>
+                                      <option value="pen">Pen</option>
+                                      <option value="charcoal">Charcoal</option>
+                                      <option value="paper">Paper</option>
+                                      <option value="colored_pencil">Colored pencil</option>
+                                      <option value="oil_pastel">Oil pastel</option>
+                                      <option value="soft_pastel">Soft pastel</option>
+                                    </select>
                                 </div>
                                 <div class="input-group mb-2">
                                     <div class="input-group-prepend">

@@ -31,7 +31,7 @@
                         <a class="dropdown-item" href="?medium=tempura">Tempura</a>
                         <a class="dropdown-item" href="?medium=ink">Ink</a>
                         <a class="dropdown-item" href="?medium=ceramic">Ceramic/a>
-            <a class="dropdown-item" href="?medium=wood">Wood</a>
+                        <a class="dropdown-item" href="?medium=wood">Wood</a>
                         <a class="dropdown-item" href="?medium=wire">Wire</a>
                         <a class="dropdown-item" href="?medium=plaster">Plaster</a>
                         <a class="dropdown-item" href="?medium=marble">Marble</a>
@@ -60,30 +60,30 @@
                         <a class="dropdown-item" href="?style=popart">Pop Art</a>
                         <a class="dropdown-item" href="?style=modernism">Modernism</a>
                         <a class="dropdown-item" href="?style=gothic">Gothic</a>
-                        <a class="dropdown-item" href="?style=">Surrealism</a>
-                        <a class="dropdown-item" href="?style=">Realism</a>
-                        <a class="dropdown-item" href="?style=">Hyper Realism</a>
-                        <a class="dropdown-item" href="?style=">Rococo</a>
-                        <a class="dropdown-item" href="?style=">Byzantine</a>
-                        <a class="dropdown-item" href="?style=">Romanticism</a>
+                        <a class="dropdown-item" href="?style=surrealism">Surrealism</a>
+                        <a class="dropdown-item" href="?style=realism">Realism</a>
+                        <a class="dropdown-item" href="?style=hyper_realism">Hyper Realism</a>
+                        <a class="dropdown-item" href="?style=rococo">Rococo</a>
+                        <a class="dropdown-item" href="?style=byzantine">Byzantine</a>
+                        <a class="dropdown-item" href="?style=romanticism">Romanticism</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
+                {{-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Price
             </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">$0 - $100</a>
-                        <a class="dropdown-item" href="#">$100 - $500</a>
-                        <a class="dropdown-item" href="#">$500 - $1000</a>
-                        <a class="dropdown-item" href="#">$1000 - Up</a>
+                        <a class="dropdown-item" href="?price=0100">$0 - $100</a>
+                        <a class="dropdown-item" href="?price=100500">$100 - $500</a>
+                        <a class="dropdown-item" href="?price=5001000">$500 - $1000</a>
+                        <a class="dropdown-item" href="?price=1000up">$1000 - Up</a>
                     </div>
-                </li>
+                </li> --}}
             </ul>
-            <form class="form-inline ml-auto">
+            {{-- <form class="form-inline ml-auto">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
-            </form>
+            </form> --}}
         </div>
 </nav>
 
