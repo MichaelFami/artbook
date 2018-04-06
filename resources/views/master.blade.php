@@ -36,7 +36,8 @@
             <li class="nav-item">
               <a href="/login" class="nav-link text-white">Sign In</a>
             </li>
-            @endguest @auth
+            @endguest
+            @auth
             <li class="nav-item">
               <a href="/home" class="nav-link text-white"><strong>Gallery</strong></a>
             </li>
