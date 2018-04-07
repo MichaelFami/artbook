@@ -136,6 +136,12 @@
                         <div class="img-container">
                             <img class="img-fluid" src="/img/embrace_and_celebrate.jpg" alt="artwork">
                         </div>
+                        <div class="img-container">
+                            <img class="img-fluid" src="/img/mantodea_femenine-host.jpg" alt="artwork">
+                        </div>
+                        <div class="img-container">
+                            <img class="img-fluid" src="/img/platerodrilus_ornament.jpg" alt="artwork">
+                        </div>
                     </div>
                 </div>
             </div>
