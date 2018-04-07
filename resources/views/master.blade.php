@@ -39,7 +39,7 @@
             @endguest
             @auth
             <li class="nav-item">
-              <a href="/home" class="nav-link text-white"><strong>Home</strong></a>
+              <a href="/home" class="nav-link text-white"><strong>Gallery</strong></a>
             </li>
             <li class="nav-item">
               <a href="/artist" class="nav-link text-white"><strong>Profile</strong></a>
