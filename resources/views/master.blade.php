@@ -24,7 +24,7 @@
 
 <body>
   <div class="wrapper">
-    <nav class="nav navbar navbar-expand-sm">
+    <nav class="nav navbar navbar-expand-sm navbar-dark">
       <div class="container">
         <a href="/" class="navbar-brand">
           <h3>Exhibit</h3>
@@ -39,7 +39,7 @@
             @endguest
             @auth
             <li class="nav-item">
-              <a href="/home" class="nav-link text-white"><strong>Gallery</strong></a>
+              <a href="/home" class="nav-link text-white"><strong>Home</strong></a>
             </li>
             <li class="nav-item">
               <a href="/artist" class="nav-link text-white"><strong>Profile</strong></a>
