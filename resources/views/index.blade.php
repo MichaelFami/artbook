@@ -10,11 +10,11 @@
                         <div class="col-lg-8 d-none d-lg-block">
                             <h1 class="display-4 text-white">Welcome to EXHIBIT</h1>
                             <div class="d-flex flex-row">
-                                <h3 class="p-4 align-self-start text-white"> An online resource for local artists to <strong>SHOWCASE</strong>, and/or <strong>SELL</strong> their work. Become inspired by unique pieces from Artists of every medium.
+                                <h3 class="p-4 align-self-start text-white"><strong>An online resource for local artists to SHOWCASE, and/or SELL their work.</strong>
                                 </h3>
                             </div>
                             <div class="d-flex flex-row">
-                                <h3 class="p-4 align-self-start text-white"><strong>START YOUR BROWSING</strong>
+                                <h3 class="p-4 align-self-start text-white"><strong>Become inspired by unique pieces from some of our local painters, photographers, sculptors, and digital artists.</strong>
                                 </h3>
                             </div>
                         </div>
