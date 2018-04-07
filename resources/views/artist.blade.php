@@ -171,7 +171,7 @@
               @foreach ($uploadedArtwork as $img)
               <div class="col-lg-3 col-md-4 col-xs-6">
                 <a href="#" class="d-block mb-4 h-100">
-                  <img class="img-fluid img-tsrc="{{asset('storage/'.$img->image_path) }}"  alt="">
+                  <img class="img-fluid img-t" src="{{asset('storage/'.$img->image_path) }}"  alt="">
                 </a>
               </div>
               @endforeach
